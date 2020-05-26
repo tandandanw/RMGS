@@ -4,7 +4,7 @@ RMGS is a random map generation tool. It is based on **Wave Function Collapse (W
 
 The workflow of RMGS shows below.
 
-![RMGS](D:\Projects\RMGS\Screenshots\RMGS.JPG)
+![RMGS](Screenshots/RMGS.JPG)
 
 ## RMGS structure
 
@@ -31,8 +31,8 @@ for example
 
 ## Screenshots
 
-![RMGS.Console](D:\Projects\RMGS\Screenshots\RMGS.Console.JPG)
+![RMGS.Console](Screenshots/RMGS.Console.JPG)
 
-![RMGS.GUI](D:\Projects\RMGS\Screenshots\RMGS.GUI.JPG)
+![RMGS.GUI](Screenshots/RMGS.GUI.JPG)
 
-![Game](D:\Projects\RMGS\Screenshots\Game.JPG)
+![Game](Screenshots/Game.JPG)

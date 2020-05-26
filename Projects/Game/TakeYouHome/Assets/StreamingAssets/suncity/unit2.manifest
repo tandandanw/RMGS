@@ -1,0 +1,20 @@
+ManifestFileVersion: 0
+CRC: 1613493653
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 1e75f68fd686f52fa933d5d5c15888d6
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9e6ad29cbd2df8fbe1a15315db0e51ab
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/Game/Textures/SunCity/Buildings/building_farmland_2.png
+- Assets/Game/Textures/SunCity/Buildings/building_parkinglot_2.png
+- Assets/Game/Textures/SunCity/Buildings/building_park_2.png
+Dependencies: []

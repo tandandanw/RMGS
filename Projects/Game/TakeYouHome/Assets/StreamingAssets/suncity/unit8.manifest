@@ -1,0 +1,25 @@
+ManifestFileVersion: 0
+CRC: 4167613940
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: df38958d152d3069bfeaad21df49627f
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9e6ad29cbd2df8fbe1a15315db0e51ab
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/Game/Textures/SunCity/Landmarks/landmark_aquarium.png
+- Assets/Game/Textures/SunCity/Landmarks/landmark_government.png
+- Assets/Game/Textures/SunCity/Landmarks/landmark_museum.png
+- Assets/Game/Textures/SunCity/Landmarks/landmark_amusementpark.png
+- Assets/Game/Textures/SunCity/Landmarks/landmark_zoo.png
+- Assets/Game/Textures/SunCity/Landmarks/landmark_factory.png
+- Assets/Game/Textures/SunCity/Landmarks/landmark_stadium.png
+- Assets/Game/Textures/SunCity/Landmarks/landmark_mall.png
+Dependencies: []

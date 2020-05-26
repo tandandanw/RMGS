@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Game/Scenes/TakeYouHomeStartupScene.unity
+    guid: 76de6f6d74a5b124d9f98eff8cbef395
+  - enabled: 1
+    path: Assets/Game/Scenes/TakeYouHomeGameScene.unity
+    guid: f7b9689e521d2444ba77e8bd70f36fe9
+  - enabled: 1
+    path: Assets/Game/Scenes/TakeYouHomeOverScene.unity
+    guid: b43af5841dfbb244db12007362c50dc8
+  m_configObjects: {}

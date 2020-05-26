@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<set setName="Road" patternsize="32" width="30" height="30" chunkAmount="8">
+    <patterns>
+        <pattern name="road_corner" weight="0.1" symmetry="L"/>
+        <pattern name="road_cross" weight="0.2" symmetry="I"/>
+        <pattern name="road_crosswalk" weight="0.1" symmetry="I"/>
+        <pattern name="road_straight" weight="0.4" symmetry="I"/>
+        <pattern name="road_tbranch" weight="0.1" symmetry="T"/>
+        <pattern name="road_empty" weight="1.0" symmetry="X"/>
+    </patterns>
+    <constraints>
+        <constraint left="road_corner 1" right="road_empty"/>
+        <constraint left="road_corner" right="road_cross"/>
+        <constraint left="road_corner" right="road_cross 1"/>
+        <constraint left="road_corner" right="road_straight"/>
+        <constraint left="road_corner 1" right="road_straight 1"/>
+        <constraint left="road_corner" right="road_tbranch 2"/>
+        <constraint left="road_corner" right="road_tbranch 3"/>
+        <constraint left="road_corner" right="road_tbranch"/>
+        <constraint left="road_corner 1" right="road_tbranch 1"/>
+        <constraint left="road_corner 1" right="road_corner 3"/>
+        <constraint left="road_corner 1" right="road_corner"/>
+        <constraint left="road_corner" right="road_corner 1"/>
+        <constraint left="road_corner" right="road_corner 2"/>
+        <constraint left="road_cross" right="road_cross"/>
+        <constraint left="road_cross" right="road_cross 1"/>
+        <constraint left="road_cross 1" right="road_cross 1"/>
+        <constraint left="road_cross" right="road_straight"/>
+        <constraint left="road_cross 1" right="road_straight"/>
+        <constraint left="road_cross" right="road_tbranch"/>
+        <constraint left="road_cross" right="road_tbranch 3"/>
+        <constraint left="road_cross 1" right="road_tbranch"/>
+        <constraint left="road_cross 1" right="road_tbranch 3"/>
+        <constraint left="road_empty" right="road_empty"/>
+        <constraint left="road_empty" right="road_straight 1"/>
+        <constraint left="road_empty" right="road_tbranch 1"/>
+        <constraint left="road_tbranch 1" right="road_tbranch 3"/>
+        <constraint left="road_tbranch" right="road_tbranch"/>
+        <constraint left="road_tbranch 2" right="road_tbranch"/>
+        <constraint left="road_tbranch 1" right="road_tbranch"/>
+        <constraint left="road_tbranch 3" right="road_tbranch 1"/>
+        <constraint left="road_straight" right="road_crosswalk"/>
+        <constraint left="road_straight 1" right="road_crosswalk 1"/>
+        <constraint left="road_straight" right="road_straight"/>
+        <constraint left="road_straight 1" right="road_straight 1"/>
+    </constraints>
+</set>

@@ -1,0 +1,27 @@
+ManifestFileVersion: 0
+CRC: 3502907483
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: d59d70f587c5138894842ccaf161afa9
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9e6ad29cbd2df8fbe1a15315db0e51ab
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/Game/Textures/SunCity/Buildings/building_residence _1.png
+- Assets/Game/Textures/SunCity/Terrain/terrain_tree.png
+- Assets/Game/Textures/SunCity/Terrain/terrain_bush.png
+- Assets/Game/Textures/SunCity/Buildings/building_store_1.png
+- Assets/Game/Textures/SunCity/Terrain/terrain_water.png
+- Assets/Game/Textures/SunCity/Terrain/terrain_flower.png
+- Assets/Game/Textures/SunCity/Terrain/terrain_earth.png
+- Assets/Game/Textures/SunCity/Terrain/terrain_grass.png
+- Assets/Game/Textures/SunCity/Buildings/building_square_1.png
+- Assets/Game/Textures/SunCity/Buildings/building_toilet _1.png
+Dependencies: []

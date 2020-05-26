@@ -1,0 +1,23 @@
+ManifestFileVersion: 0
+CRC: 3346817966
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 0d13ef9bd0bb8547e89c6a9c4d9451e4
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9e6ad29cbd2df8fbe1a15315db0e51ab
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/Game/Textures/SunCity/Roads/road_empty.png
+- Assets/Game/Textures/SunCity/Roads/road_cross.png
+- Assets/Game/Textures/SunCity/Roads/road_straight.png
+- Assets/Game/Textures/SunCity/Roads/road_corner.png
+- Assets/Game/Textures/SunCity/Roads/road_tbranch.png
+- Assets/Game/Textures/SunCity/Roads/road_crosswalk.png
+Dependencies: []

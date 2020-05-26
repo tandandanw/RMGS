@@ -1,0 +1,22 @@
+ManifestFileVersion: 0
+CRC: 2829165494
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: suncity/unit1
+      Dependencies: {}
+    Info_1:
+      Name: suncity/roads
+      Dependencies: {}
+    Info_2:
+      Name: suncity/unit4
+      Dependencies: {}
+    Info_3:
+      Name: suncity/unit8
+      Dependencies: {}
+    Info_4:
+      Name: suncity/unit2
+      Dependencies: {}
+    Info_5:
+      Name: suncity/constraints
+      Dependencies: {}

@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<set setName="White" patternsize="16" width="30" height="30" chunkAmount="8">
+    <patterns>
+        <pattern name="corner" weight="1.0" symmetry="L"/>
+        <pattern name="cross" weight="1.0" symmetry="I"/>
+        <pattern name="empty" weight="1.0" symmetry="X"/>
+        <pattern name="line" weight="1.0" symmetry="I"/>
+        <pattern name="t" weight="1.0" symmetry="T"/>
+    </patterns>
+    <constraints>
+        <constraint left="corner 1" right="empty"/>
+        <constraint left="corner" right="cross"/>
+        <constraint left="corner" right="cross 1"/>
+        <constraint left="corner" right="line"/>
+        <constraint left="corner 1" right="line 1"/>
+        <constraint left="corner" right="t 2"/>
+        <constraint left="corner" right="t 3"/>
+        <constraint left="corner" right="t"/>
+        <constraint left="corner 1" right="t 1"/>
+        <constraint left="corner 1" right="corner 3"/>
+        <constraint left="corner 1" right="corner"/>
+        <constraint left="corner" right="corner 1"/>
+        <constraint left="corner" right="corner 2"/>
+        <constraint left="cross" right="cross"/>
+        <constraint left="cross" right="cross 1"/>
+        <constraint left="cross 1" right="cross 1"/>
+        <constraint left="cross" right="line"/>
+        <constraint left="cross 1" right="line"/>
+        <constraint left="cross" right="t"/>
+        <constraint left="cross" right="t 3"/>
+        <constraint left="cross 1" right="t"/>
+        <constraint left="cross 1" right="t 3"/>
+        <constraint left="empty" right="empty"/>
+        <constraint left="empty" right="line 1"/>
+        <constraint left="empty" right="t 1"/>
+        <constraint left="line" right="line"/>
+        <constraint left="line 1" right="line 1"/>
+        <constraint left="line" right="t"/>
+        <constraint left="line 1" right="t 1"/>
+        <constraint left="line" right="t 3"/>
+        <constraint left="t 1" right="t 3"/>
+        <constraint left="t" right="t"/>
+        <constraint left="t 2" right="t"/>
+        <constraint left="t 1" right="t"/>
+        <constraint left="t 3" right="t 1"/>
+    </constraints>
+</set>
